@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empName"
+        android:text="ชื่อ"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empCode"
+        android:text="รหัส"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empTel"
+        android:text="เบอร์โทรศัพท์"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empMail"
+        android:text="อีเมล"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userLevel"
+        android:text="ระดับผู้ใช้"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="รายการแจ้งซ่อม"
+        android:id="@+id/btn_fix"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ออกจากระบบ"
+        android:id="@+id/btn_logout"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>

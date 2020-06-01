@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/txt_id"
+        android:text="เลขครุภัณฑ์"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/txt_name"
+        android:text="ชื่อครุภัณฑ์"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/txt_zone"
+        android:text="โซนครุภัณฑ์"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/txt_status"
+        android:text="สถานะครุภัณฑ์"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
